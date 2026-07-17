@@ -1,91 +1,89 @@
 #!/bin/bash
-for i in {1..30}
-do
-	./exec/main ../testes/ORLIB-cap/40/cap41.txt resul/meta50_10_500_0.98/40/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/40/cap42.txt resul/meta50_10_500_0.98/40/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/40/cap43.txt resul/meta50_10_500_0.98/40/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/40/cap44.txt resul/meta50_10_500_0.98/40/ -m $1 $2 $3 $4
-	sleep 1
 
-	./exec/main ../testes/ORLIB-cap/50/cap51.txt resul/meta50_10_500_0.98/50/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/40/cap41.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/40/cap42.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/40/cap43.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/40/cap44.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-cap/60/cap61.txt resul/meta50_10_500_0.98/60/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/60/cap62.txt resul/meta50_10_500_0.98/60/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/60/cap63.txt resul/meta50_10_500_0.98/60/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/60/cap64.txt resul/meta50_10_500_0.98/60/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/50/cap51.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-uncap/70/cap71.txt resul/meta50_10_500_0.98/70/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/70/cap72.txt resul/meta50_10_500_0.98/70/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/70/cap73.txt resul/meta50_10_500_0.98/70/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/70/cap74.txt resul/meta50_10_500_0.98/70/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/60/cap61.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/60/cap62.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/60/cap63.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/60/cap64.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-cap/80/cap81.txt resul/meta50_10_500_0.98/80/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/80/cap82.txt resul/meta50_10_500_0.98/80/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/80/cap83.txt resul/meta50_10_500_0.98/80/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/80/cap84.txt resul/meta50_10_500_0.98/80/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/80/cap81.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/80/cap82.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/80/cap83.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/80/cap84.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-cap/90/cap91.txt resul/meta50_10_500_0.98/90/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/90/cap92.txt resul/meta50_10_500_0.98/90/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/90/cap93.txt resul/meta50_10_500_0.98/90/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/90/cap94.txt resul/meta50_10_500_0.98/90/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/90/cap91.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/90/cap92.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/90/cap93.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/90/cap94.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-uncap/100/cap101.txt resul/meta50_10_500_0.98/100/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/100/cap102.txt resul/meta50_10_500_0.98/100/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/100/cap103.txt resul/meta50_10_500_0.98/100/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/100/cap104.txt resul/meta50_10_500_0.98/100/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/110/cap111.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/110/cap112.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/110/cap113.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/110/cap114.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-cap/110/cap111.txt resul/meta50_10_500_0.98/110/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/110/cap112.txt resul/meta50_10_500_0.98/110/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/110/cap113.txt resul/meta50_10_500_0.98/110/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/110/cap114.txt resul/meta50_10_500_0.98/110/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-cap/120/cap121.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/120/cap122.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/120/cap123.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-cap/120/cap124.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-cap/120/cap121.txt resul/meta50_10_500_0.98/120/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/120/cap122.txt resul/meta50_10_500_0.98/120/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/120/cap123.txt resul/meta50_10_500_0.98/120/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-cap/120/cap124.txt resul/meta50_10_500_0.98/120/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-uncap/70/cap71.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/70/cap72.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/70/cap73.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/70/cap74.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-uncap/130/cap131.txt resul/meta50_10_500_0.98/130/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/130/cap132.txt resul/meta50_10_500_0.98/130/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/130/cap133.txt resul/meta50_10_500_0.98/130/ -m $1 $2 $3 $4
-	sleep 1
-	./exec/main ../testes/ORLIB-uncap/130/cap134.txt resul/meta50_10_500_0.98/130/ -m $1 $2 $3 $4
-	sleep 1
+./uflp testes/ORLIB-uncap/100/cap101.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/100/cap102.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/100/cap103.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/100/cap104.txt resultados/ -m $1 $2 $3 $4
+sleep 1
 
-	./exec/main ../testes/ORLIB-uncap/a-c/capa.txt resul/meta50_10_500_0.98/a-c/ -m $1 $2 $3 $4
-	./exec/main ../testes/ORLIB-uncap/a-c/capb.txt resul/meta50_10_500_0.98/a-c/ -m $1 $2 $3 $4
-	./exec/main ../testes/ORLIB-uncap/a-c/capc.txt resul/meta50_10_500_0.98/a-c/ -m $1 $2 $3 $4
-done
+./uflp testes/ORLIB-uncap/130/cap131.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/130/cap132.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/130/cap133.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+./uflp testes/ORLIB-uncap/130/cap134.txt resultados/ -m $1 $2 $3 $4
+sleep 1
+
+./uflp testes/ORLIB-uncap/a-c/capa.txt resultados/ -m $1 $2 $3 $4
+./uflp testes/ORLIB-uncap/a-c/capb.txt resultados/ -m $1 $2 $3 $4
+./uflp testes/ORLIB-uncap/a-c/capc.txt resultados/ -m $1 $2 $3 $4
