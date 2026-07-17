@@ -31,7 +31,7 @@ cc v15.2.0 or superior
 Clone o repositório
 
 ```
-
+https://github.com/fluriafloral/uflp-algorithms.git
 ```
 
 ## Installation
@@ -39,19 +39,21 @@ Clone o repositório
 Clone the repo
 
 ```
-
+https://github.com/fluriafloral/uflp-algorithms.git
 ```
 
 ## Utilização
 
 Executar o programa em uma única instância de teste:
 
-```./uflp caminho/para/teste/teste.txt caminho/para/resultado/ [-h] [-e] [-m N G T0 α]
+```
+./uflp caminho/para/teste/teste.txt caminho/para/resultado/ [-h] [-e] [-m N G T0 α]
 ```
     
 Executar o programa em um conjunto de instâncias de teste:
 
-```./todos[Heur|Exato|Meta N G T0 α]
+```
+./todos[Heur|Exato|Meta N G T0 α]
 ```
 
 Onde: 
@@ -72,12 +74,14 @@ Onde:
 
 Execute the program in a single test instance:
 
-```./uflp path/to/test/test.txt path/to/result/ [-h] [-e] [-m N G T0 α]
+```
+./uflp path/to/test/test.txt path/to/result/ [-h] [-e] [-m N G T0 α]
 ```
     
 Execute the program in a set of test instances
 
-```./todos[Heur|Exato|Meta N G T0 α]
+```
+./todos[Heur|Exato|Meta N G T0 α]
 ```
 
 Onde: 
