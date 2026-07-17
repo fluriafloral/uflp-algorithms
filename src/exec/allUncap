@@ -1,0 +1,15 @@
+./exec/main ../testes/ORLIB-uncap/70/cap71.txt resul/cap71Res.txt 
+./exec/main ../testes/ORLIB-uncap/70/cap72.txt resul/cap72Res.txt
+./exec/main ../testes/ORLIB-uncap/70/cap73.txt resul/cap73Res.txt
+./exec/main ../testes/ORLIB-uncap/70/cap74.txt resul/cap74Res.txt
+./exec/main ../testes/ORLIB-uncap/100/cap101.txt resul/cap101Res.txt
+./exec/main ../testes/ORLIB-uncap/100/cap102.txt resul/cap102Res.txt
+./exec/main ../testes/ORLIB-uncap/100/cap103.txt resul/cap103Res.txt
+./exec/main ../testes/ORLIB-uncap/100/cap104.txt resul/cap104Res.txt
+./exec/main ../testes/ORLIB-uncap/130/cap131.txt resul/cap131Res.txt
+./exec/main ../testes/ORLIB-uncap/130/cap132.txt resul/cap132Res.txt
+./exec/main ../testes/ORLIB-uncap/130/cap133.txt resul/cap133Res.txt
+./exec/main ../testes/ORLIB-uncap/130/cap134.txt resul/cap134Res.txt
+./exec/main ../testes/ORLIB-uncap/a-c/capa.txt resul/capaRes.txt
+./exec/main ../testes/ORLIB-uncap/a-c/capb.txt resul/capbRes.txt
+./exec/main ../testes/ORLIB-uncap/a-c/capc.txt resul/capcRes.txt

@@ -1,0 +1,91 @@
+#!/bin/bash
+for i in {1..30}
+do
+	./exec/main ../testes/ORLIB-cap/40/cap41.txt resul/heur/40/cap41/ -h
+	sleep 1
+	./exec/main ../testes/ORLIB-cap/40/cap42.txt resul/heur/40/cap42/ -h
+	sleep 1
+	./exec/main ../testes/ORLIB-cap/40/cap43.txt resul/heur/40/cap43/ -h
+	sleep 1
+	./exec/main ../testes/ORLIB-cap/40/cap44.txt resul/heur/40/cap44/ -h
+	sleep 1
+
+	./exec/main ../testes/ORLIB-cap/50/cap51.txt resul/heur/50/ -h
+	sleep 1
+
+	./exec/main ../testes/ORLIB-cap/60/cap61.txt resul/heur/60/cap61/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/60/cap62.txt resul/heur/60/cap62/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/60/cap63.txt resul/heur/60/cap63/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/60/cap64.txt resul/heur/60/cap64/ -h
+
+
+	./exec/main ../testes/ORLIB-cap/80/cap81.txt resul/heur/80/cap81/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/80/cap82.txt resul/heur/80/cap82/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/80/cap83.txt resul/heur/80/cap83/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/80/cap84.txt resul/heur/80/cap84/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/90/cap91.txt resul/heur/90/cap91/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/90/cap92.txt resul/heur/90/cap92/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/90/cap93.txt resul/heur/90/cap93/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/90/cap94.txt resul/heur/90/cap94/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/110/cap111.txt resul/heur/110/cap111/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/110/cap112.txt resul/heur/110/cap112/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/110/cap113.txt resul/heur/110/cap113/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/110/cap114.txt resul/heur/110/cap114/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/120/cap121.txt resul/heur/120/cap121/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/120/cap122.txt resul/heur/120/cap122/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/120/cap123.txt resul/heur/120/cap123/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/120/cap124.txt resul/heur/120/cap124/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/70/cap71.txt resul/heur/70/cap71/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/70/cap72.txt resul/heur/70/cap72/ -h
+	sleep 1
+	./exec/main ../testes/ORLIB-uncap/70/cap73.txt resul/heur/70/cap73/ -h
+	sleep 1
+	./exec/main ../testes/ORLIB-uncap/70/cap74.txt resul/heur/70/cap74/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/100/cap101.txt resul/heur/100/cap101/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/100/cap102.txt resul/heur/100/cap102/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/100/cap103.txt resul/heur/100/cap103/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/100/cap104.txt resul/heur/100/cap104/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/130/cap131.txt resul/heur/130/cap131/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/130/cap132.txt resul/heur/130/cap132/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/130/cap133.txt resul/heur/130/cap133/ -h
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/130/cap134.txt resul/heur/130/cap134/ -h
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/a-c/capa.txt resul/heur/a-c/capa/ -h
+	./exec/main ../testes/ORLIB-uncap/a-c/capb.txt resul/heur/a-c/capb/ -h
+	./exec/main ../testes/ORLIB-uncap/a-c/capc.txt resul/heur/a-c/capc/ -h
+done

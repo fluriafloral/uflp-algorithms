@@ -1,0 +1,92 @@
+#!/bin/bash
+for i in {1..30}
+do
+	./exec/main ../testes/ORLIB-cap/40/cap41.txt resul/exato/40/cap41/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/40/cap42.txt resul/exato/40/cap42/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/40/cap43.txt resul/exato/40/cap43/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/40/cap44.txt resul/exato/40/cap44/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/50/cap51.txt resul/exato/50/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/60/cap61.txt resul/exato/60/cap61/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/60/cap62.txt resul/exato/60/cap62/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/60/cap63.txt resul/exato/60/cap63/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/60/cap64.txt resul/exato/60/cap64/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/80/cap81.txt resul/exato/80/cap81/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/80/cap82.txt resul/exato/80/cap82/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/80/cap83.txt resul/exato/80/cap83/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/80/cap84.txt resul/exato/80/cap84/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/90/cap91.txt resul/exato/90/cap91/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/90/cap92.txt resul/exato/90/cap92/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/90/cap93.txt resul/exato/90/cap93/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/90/cap94.txt resul/exato/90/cap94/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/110/cap111.txt resul/exato/110/cap111/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/110/cap112.txt resul/exato/110/cap112/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/110/cap113.txt resul/exato/110/cap113/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/110/cap114.txt resul/exato/110/cap114/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-cap/120/cap121.txt resul/exato/120/cap121/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/120/cap122.txt resul/exato/120/cap122/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/120/cap123.txt resul/exato/120/cap123/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-cap/120/cap124.txt resul/exato/120/cap124/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/70/cap71.txt resul/exato/70/cap71/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/70/cap72.txt resul/exato/70/cap72/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/70/cap73.txt resul/exato/70/cap73/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/70/cap74.txt resul/exato/70/cap74/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/100/cap101.txt resul/exato/100/cap101/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/100/cap102.txt resul/exato/100/cap102/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/100/cap103.txt resul/exato/100/cap103/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/100/cap104.txt resul/exato/100/cap104/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/130/cap131.txt resul/exato/130/cap131/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/130/cap132.txt resul/exato/130/cap132/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/130/cap133.txt resul/exato/130/cap133/ -e
+        sleep 1
+	./exec/main ../testes/ORLIB-uncap/130/cap134.txt resul/exato/130/cap134/ -e
+        sleep 1
+
+	./exec/main ../testes/ORLIB-uncap/a-c/capa.txt resul/exato/a-c/capa/ -e
+	./exec/main ../testes/ORLIB-uncap/a-c/capb.txt resul/exato/a-c/capb/ -e
+	./exec/main ../testes/ORLIB-uncap/a-c/capc.txt resul/exato/a-c/capc/ -e
+
+done
