@@ -103,16 +103,27 @@ Onde:
 Foram utilizadas instâncias de testes capacitadas e não capacitadas, extraídas dos conjuntos de teste IV ao XIII, A a C, dos bancos de instâncias Max Planck Institut Informatik e OR-Library. Estão disponíveis na pasta /testes e apresentam o seguinte formato:
 
 m n
+
 capacidade-1 custo-1
+
 capacidade-2 custo-2
+
 ...
+
 capacidade-m custo-m
+
 demanda-1
+
 distância-1,1 distância-1,2 ... distância-1,m
+
 demanda-2
+
 distância-2,1 distância-2,2 ... distância-2,m
+
 ...
+
 demanda-n
+
 distância-n,1 distância-n,2 ... distância-n,m
 
 Onde:
@@ -129,16 +140,27 @@ Onde:
 capacitated and non-capacitated test instances were used, extracted from the test sets IV to XII, A to C, from the instances data sets Max Planck Institut Informatik and OR-Library. They are available in /testes folder and are presented in the following format:
 
 m n
+
 capacity-1 cost-1
+
 capacity-2 cost-2
+
 ...
+
 capacity-m cost-m
+
 demand-1
+
 distance-1,1 distance-1,2 ... distance-1,m
+
 demand-2
+
 distance-2,1 distance-2,2 ... distance-2,m
+
 ...
+
 demand-n
+
 distance-n,1 distance-n,2 ... distance-n,m
 
 Where:
@@ -153,11 +175,15 @@ Where:
 ## Créditos
 
 Esse programa foi implementado apenas com fins educacionais
+
 Feito e mantido por Pedro Henrique Teixeira e Silva
+
 Projeto inicialmente desenvolvido para a disciplina Projeto e Análise de Algoritmos do bacharelado em tecnologia da informação na Universidade Federal do Rio Grande do Norte, em dezembro de 2025
 
 ## Credits
 
 This program was implemented with educational purposes only
+
 Created and maintained by Pedro Henrique Teixeira e Silva
+
 Project initially developed for the algorithms project and analysis course in the bachellor degree program at the Federal University of Rio Grande do Norte, in december 2025
