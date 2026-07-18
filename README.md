@@ -2,11 +2,11 @@
 
 O programa gera soluções para instâncias do problema da localização de instalações não capacitado, atualmente conta com três algoritmos implementados:
 
- - Heurística determinística DAS (Diminui, Aumenta, Substitui), proposto por Soumen Atta, Priya Ranjan Sinha Mahapatra e Anirban Mukhopadhyay (igi-global.com/gateway/article/225822).
+ - Heurística determinística DAS (Diminui, Aumenta, Substitui), proposto por Soumen Atta, Priya Ranjan Sinha Mahapatra e Anirban Mukhopadhyay (https://www.igi-global.com/gateway/article/225822).
 
  - Procedimento baseado em dualidade DUALOC, proposto Donald Erlenkotter (https://www.jstor.org/stable/170260). 
 
- - Meta-Heurística híbrida de Algoritmo Genético & Arrefecimento Simulado, proposto por Songul Kısaboyun e Emrullah Sonuç (comdem.org/index.php/comdem/article/view/13781).
+ - Meta-Heurística híbrida de Algoritmo Genético & Arrefecimento Simulado, proposto por Songul Kısaboyun e Emrullah Sonuç (https://www.comdem.org/index.php/comdem/article/view/13781).
 
 # Implementation of algorithms to the uncapacitated facility location problem
 
@@ -62,10 +62,15 @@ Onde:
  - -h: Executa a heurística determinística DAS 
  - -e: Executa o procedimento DUALOC
  - -m N G T0 α: Executa a meta-heurística híbrida com os seguintes parâmetros:
+ 
     • N = tamanho da população
+    
     • G = número máximo de gerações
+    
     • T0 = temperatura inicial do arrefecimento simulado
+    
     • α = taxa de resfriamento
+    
  - ./todosHeur: executa executa o programa no conjunto de instâncias de testes com a heurística determinística DAS
  - ./todosExato: executa o programa no conjunto de instâncias de teste com o procedimento DUALOC
  - ./todosMeta N G T0 α: executa o programa no conjunto de instâncias de testes com a meta-heurística híbrida e os parâmetros fornecidos
@@ -90,10 +95,15 @@ Onde:
  - -h: Executes the deterministic heuristic BFR
  - -e: Executes the DUALOC procedure
  - -m N G T0 α: Executes the hybrid metaheuristic with the following parameters:
-    • N = population dize
+ 
+    • N = population size
+    
     • G = maximum number of generations
+    
     • T0 = simulated annealing initial temperature
+    
     • α = cooling rate
+    
  - ./todosHeur: executes the program on the instances data sets using the deterministic heuristic BFR
  - ./todosExato: executes the program on the instances data sets using the DUALOC procedure
  - ./todosMeta N G T0 α: executes the program on he instances data sets using the hybrid metaheuristic and the given parameters
@@ -132,7 +142,7 @@ Onde:
  - n = número de clientes.
  - capacidade-i = capacidade do i-ésimo local, i ∈ {1, 2, …, m} (no caso das instâncias não-capacitadas, há uma string ou um valor ignorável).
  - custo-i = custo para construir facilidade no i-ésimo local, i ∈ {1, 2, …, m}.
- - demanda-j = demanda do cliente j ∈ {1, 2, …, n}(no caso das instâncias não-capacitadas, há uma string ou um valor ignorável).
+ - demanda-j = demanda do cliente j ∈ {1, 2, …, n} (no caso das instâncias não-capacitadas, há uma string ou um valor ignorável).
  - distância-j,i = custo de atender o cliente j ∈ {1, 2, …, n} a partir do local i ∈ {1, 2, …, m}.
 
 ## Test instances
