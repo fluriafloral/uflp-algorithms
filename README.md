@@ -12,11 +12,11 @@ O programa gera soluções para instâncias do problema da localização de inst
 
 The program generates solutions for instances of the uncapacitated facility location problem, currently it has three implemented algorithms:
 
- - Deterministic heuristic BFR (Backward, Forward, Replacement), proposed by Soumen Atta, Priya Ranjan Sinha Mahapatra e Anirban Mukhopadhyay (igi-global.com/gateway/article/225822).
+ - Deterministic heuristic BFR (Backward, Forward, Replacement), proposed by Soumen Atta, Priya Ranjan Sinha Mahapatra e Anirban Mukhopadhyay (https://www.igi-global.com/gateway/article/225822).
  
  - Dual-Based procedure DUALOC, proposed by Donald Erlenkotter (https://www.jstor.org/stable/170260). 
  
- - Hybrid metaheuristic combining genetic algorithm and simulated annealing, proposed by Songul Kısaboyun e Emrullah Sonuç (comdem.org/index.php/comdem/article/view/13781).
+ - Hybrid metaheuristic combining genetic algorithm and simulated annealing, proposed by Songul Kısaboyun e Emrullah Sonuç (https://www.comdem.org/index.php/comdem/article/view/13781).
 
 ## Pré-requisitos
 
